@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+       android:title="File"
+       android:icon="@drawable/tiger1">
+       <menu><group 
+           			android:id="@+id/noCheckable_group"
+           			android:checkableBehavior="none">
+           			
+           			<item
+           			    android:id="@+id/newFile"
+           			    android:title="New"
+           			    android:alphabeticShortcut="n"/>
+           			
+           			<item
+           			    android:id="@+id/openFile"
+           			    android:title="Open"
+           			    android:alphabeticShortcut="o" />
+           			
+           			<item
+           			    android:id="@+id/saveFile"
+           			    android:title="Save"
+           			    android:alphabeticShortcut="s" />           			
+           	</group>
+        </menu>
+    </item>
+
+      <item 
+       android:title="Edit"
+       android:icon="@drawable/tiger2">
+       <menu><group 
+           			android:id="@+id/edit_group"
+           			android:checkableBehavior="none">
+           			
+           			<item
+           			    android:id="@+id/cut"
+           			    android:title="cut"
+           			    android:alphabeticShortcut="c"/>
+           			
+           			<item
+           			    android:id="@+id/copy"
+           			    android:title="copy"
+           			    android:alphabeticShortcut="c" />
+           			
+           			<item
+           			    android:id="@+id/past"
+           			    android:title="past"
+           			    android:alphabeticShortcut="p" />           			
+           	</group>
+        </menu>
+    </item>
+    
+      
+        <item 
+       android:title="Help"
+       android:icon="@drawable/tiger2">
+       <menu><group 
+           			android:id="@+id/Help"
+           			android:checkableBehavior="none">
+           			
+           			<item
+           			    android:id="@+id/about"
+           			    android:title="About"
+           			    android:alphabeticShortcut="A"/>
+           			
+           			<item
+           			    android:id="@+id/exit"
+           			    android:title="Exit"
+           			    android:alphabeticShortcut="E" />
+           	</group>
+        </menu>
+    </item>
+    
+    
+    
+</menu>
